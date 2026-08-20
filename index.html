@@ -53,6 +53,7 @@
       <nav class="rail-nav" aria-label="Page">
         <a href="#brief">Overview</a>
         <a href="#work">Selected work</a>
+        <a href="#recommendation">Recommendation</a>
         <a href="#experience">Experience</a>
         <a href="#capabilities">Skills</a>
         <a href="#education">Education</a>
@@ -120,7 +121,7 @@
           <article class="point">
             <span class="n">Write-up</span>
             <h3>Write the recommendation</h3>
-            <p>Ownership got a ranked county list, a staged rollout, and the downside in cash terms. Tableau covered the operating KPIs. I built the workbook and wrote the memo.</p>
+            <p>Ownership got a ranked list of 50+ California counties, a staged rollout, and the downside in cash terms. Tableau covered the operating KPIs. I built the workbook and wrote the memo.</p>
           </article>
         </div>
       </section>
@@ -131,11 +132,12 @@
         <ul class="case-meta">
           <li>Financial Analyst</li>
           <li>Python · SQL · Excel · Tableau · R</li>
+          <li>50+ California counties</li>
           <li>Census ACS, BLS, public listings, internal ops data</li>
         </ul>
         <div class="prose">
           <p>Jamiez needed a second market. Ranking counties by household income was the obvious starting point. It was also the wrong question.</p>
-          <p>I scored eleven counties on income, homeownership, competition, distance from San Jose, and cost, then asked something simpler: can this market cover its own overhead? Demand was not the problem. Alameda has far more high-income households than the plan needed. Six of the eleven counties could support a full market on their own. Labor was the constraint. A founder rule of three staff per ten households put every scenario underwater. Counting the hours each membership tier actually uses flipped Year 5 EBITDA from a loss to a profit — same revenue, high-six-figure swing.</p>
+          <p>I scored 50+ California counties on income, homeownership, competition, distance from San Jose, and cost, then asked something simpler: can this market cover its own overhead? Demand was not the problem. Alameda has far more high-income households than the plan needed. Of the eleven counties that made the shortlist, six could support a full market on their own. Labor was the constraint. A founder rule of three staff per ten households put every scenario underwater. Counting the hours each membership tier actually uses flipped Year 5 EBITDA from a loss to a profit — same revenue, high-six-figure swing.</p>
           <p>The useful decision was how to enter, not only where. Open Alameda with a light footprint, add overhead after the book can carry it, and wait to open the next market until the current one is holding. That path reaches profit two years earlier, about triples five-year cumulative EBITDA, and cuts the cash you need in a demand-and-wage miss by roughly 90%. You give up some Year 5 revenue to get there. San Francisco is the useful counterexample: high income, tenth in the ranking, because homeownership is low and the market is crowded. Napa cannot support a market on its own.</p>
         </div>
         <ul class="tags">
@@ -151,7 +153,7 @@
           <div>
             <span>1</span>
             <strong>Ingest</strong>
-            <p>Census ACS, BLS wages, public business listings, internal operating notes. Python to map everything to county keys.</p>
+            <p>Census ACS, BLS wages, public business listings, internal operating notes. Python to map 50+ California counties onto the same keys.</p>
           </div>
           <div>
             <span>2</span>
@@ -174,12 +176,12 @@
           <div class="explorer-head">
             <div>
               <h3>County ranking</h3>
-              <p>Composite score across the eleven candidates, then a yes/no on whether the market can stand alone. Income is Census ACS (public). Competition is grouped so individual counts stay internal. Sort any column.</p>
+              <p>Shortlist of eleven after scoring 50+ California counties. Composite score, then a yes/no on whether the market can stand alone. Income is Census ACS (public). Competition is grouped so individual counts stay internal. Sort any column.</p>
             </div>
             <div class="explorer-stats">
+              <div><span>Counties scored</span><strong>50+</strong></div>
               <div><span>First market</span><strong>Alameda</strong></div>
               <div><span>Can stand alone</span><strong>6 of 11</strong></div>
-              <div><span>SF rank</span><strong>10th</strong></div>
             </div>
           </div>
           <div class="table-wrap">
@@ -198,7 +200,7 @@
               <tbody></tbody>
             </table>
           </div>
-          <p class="caption">Figures shown are the ranking and public ACS income / homeownership. Member forecasts, cost rates, and competitor counts are omitted. Scores rounded.</p>
+          <p class="caption">Table shows the eleven-county shortlist. Ranking uses public ACS income / homeownership. Member forecasts, cost rates, and competitor counts are omitted. Scores rounded.</p>
         </div>
 
         <div class="split">
@@ -284,6 +286,19 @@
             </table>
           </div>
         </div>
+
+        <figure class="recommend" id="recommendation">
+          <blockquote>
+            <p>He independently produced a comprehensive financial expansion model that considered several creative dimensions for determining optimal growth paths for our company. I have no doubt that his ability to model and synthesize data into actionable information would be a difference-maker for even much larger and much more complex businesses than Jamiez.</p>
+          </blockquote>
+          <figcaption>
+            <div>
+              <strong>Simon Seidler, Esq.</strong>
+              <span>Founder, Jamiez LLC · September 2025</span>
+            </div>
+            <a href="Simon_Seidler_Recommendation.pdf">Full letter (PDF)</a>
+          </figcaption>
+        </figure>
       </section>
 
       <section id="experience" aria-labelledby="experience-title">
@@ -300,7 +315,7 @@
             <p class="org">Jamiez LLC</p>
             <ul>
               <li>Ran monthly FP&amp;A: budget vs actual, operating expense, and driver-based revenue forecasts.</li>
-              <li>Built three-statement models and scenario tools in Excel and Python, including the county viability workbook above.</li>
+              <li>Built three-statement models and a county viability framework covering 50+ California expansion targets, including the shortlist workbook above.</li>
               <li>Wrote Python jobs to clean and join Census, BLS, listings, and internal data, which cut a weekly manual pull by 10+ hours.</li>
               <li>Built Tableau dashboards for margin, CAC, and run-rate so leadership had one place to look.</li>
               <li>Used OLS in R on geographic and macro drivers. Helped with multi-entity close in QuickBooks.</li>
@@ -314,6 +329,7 @@
               <li>Excel</li>
               <li>QuickBooks</li>
             </ul>
+            <p class="rec-note"><a href="Simon_Seidler_Recommendation.pdf">Letter of recommendation from Simon Seidler, founder</a></p>
           </div>
         </article>
 
@@ -435,6 +451,7 @@
         <div class="close-actions">
           <a class="btn" href="mailto:dmt0105@gmail.com">dmt0105@gmail.com</a>
           <a class="btn btn-ghost" href="Dillon_Tadeo_Resume.pdf" download>Résumé (PDF)</a>
+          <a class="btn btn-ghost" href="Simon_Seidler_Recommendation.pdf">Recommendation (PDF)</a>
           <a class="btn btn-ghost" href="https://www.linkedin.com/in/dillontadeo" target="_blank" rel="noopener">LinkedIn</a>
         </div>
         <p class="fine">Dillon Tadeo · (408) 960-3850</p>
